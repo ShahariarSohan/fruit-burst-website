@@ -44,30 +44,34 @@
 
 <body class="font-lato ">
   <header class="container mx-auto">
-    <div class="navbar bg-[#F85559] rounded-[600px] py-4 px-6 lg:py-6 lg:px-12 items-center ">
+    <!-- nav section -->
+    <div class="navbar my-8 md:bg-[#F85559] rounded-[600px] py-4 px-6 lg:py-6 lg:px-12 items-center ">
       <div class="navbar-start">
+        <!--logo mobile and tablet -->
+        <div class="navbar-center  flex lg:hidden   items-center gap-3">
+          <img src="./images/logo.png" alt="">
+          <h2 class="text-black md:text-3xl  text-2xl font-bold">Fruit Burst</h2>
+        </div>
+        
+        <!-- menu large devices -->
         <ul class="lg:flex items  text-clr-white text-lg center hidden gap-7 md:gap-3">
           <li><a>Home</a></li>
           <li><a>About Us</a></li>
           <li><a>Shop</a></li>
           <li><a>All Fruits</a></li>
         </ul>
-
-        
       </div>
-      <div class="navbar-center  md:flex mr-24 lg:mr-0  items-center gap-3">
-        
+      <!-- logo large devices -->
+      <div class="navbar-center  hidden lg:flex   items-center gap-3">
         <img src="./images/logo.png" alt="">
         <h2 class="text-clr-white md:text-4xl text-2xl font-bold">Fruit Burst</h2>
       </div>
       <div class="navbar-end">
-        <!-- search -->
-        
+        <!-- search bar large devices -->
           <label class="relative block">
               <input
                   class=" xl:w-96 bg-white  rounded-[50px] py-2 pl-3 pr-10 focus:outline-none hidden lg:block"
-                  placeholder="Search here" type="text" />
-  
+                  placeholder="Search here" type="text" />  
               <span class="absolute inset-y-0 right-0 flex items-center pr-3">
                   <svg class="h-5 w-5 fill-black hidden lg:block" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30"
                       height="30" viewBox="0 0 30 30">
@@ -76,9 +80,8 @@
                       </path>
                   </svg>
               </span>
-          </label>
-      
-        <!-- dropdown mobile -->
+          </label>      
+        <!-- dropdown menu mobile and tablet-->
         <div class="dropdown lg:hidden">
           <label tabindex="0" class=" ">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
