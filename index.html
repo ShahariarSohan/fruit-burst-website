@@ -41,8 +41,61 @@
 
 </head>
 
-<body class="font-lato">
-  <header class="container mx-auto"></header>
+<body class="font-lato ">
+  <header class="container mx-auto">
+    <div class="navbar bg-[#F85559] rounded-[600px] py-6 px-12 items-center ">
+      <div class="navbar-start">
+        <ul class="lg:flex items center hidden gap-7">
+          <li><a>Home</a></li>
+          <li><a>About Us</a></li>
+          <li><a>Shop</a></li>
+          <li><a>All Fruits</a></li>
+        </ul>
+        
+      </div>
+      <div class="navbar-center hidden md:flex gap-4">
+        <!-- <ul class="menu menu-horizontal px-1">
+                <li><a>Submenu 1</a></li>
+                <li><a>Submenu 1</a></li>
+                <li><a>Submenu 2</a></li>
+                <li><a>Item 3</a></li>
+        </ul> -->
+        <img src="./images/logo.png" alt="">
+        <h2 class="">Fruit Burst</h2>
+      </div>
+      <div class="navbar-end">
+        <!-- search -->
+        
+          <label class="relative block">
+              <input
+                  class="w-96  bg-white  rounded-[50px] py-2 pl-3 pr-10 focus:outline-none hidden lg:block"
+                  placeholder="Search here" type="text" />
+  
+              <span class="absolute inset-y-0 right-0 flex items-center pr-3">
+                  <svg class="h-5 w-5 fill-black hidden lg:block" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30"
+                      height="30" viewBox="0 0 30 30">
+                      <path
+                          d="M 13 3 C 7.4889971 3 3 7.4889971 3 13 C 3 18.511003 7.4889971 23 13 23 C 15.396508 23 17.597385 22.148986 19.322266 20.736328 L 25.292969 26.707031 A 1.0001 1.0001 0 1 0 26.707031 25.292969 L 20.736328 19.322266 C 22.148986 17.597385 23 15.396508 23 13 C 23 7.4889971 18.511003 3 13 3 z M 13 5 C 17.430123 5 21 8.5698774 21 13 C 21 17.430123 17.430123 21 13 21 C 8.5698774 21 5 17.430123 5 13 C 5 8.5698774 8.5698774 5 13 5 z">
+                      </path>
+                  </svg>
+              </span>
+          </label>
+      
+        <!-- dropdown mobile -->
+        <div class="dropdown">
+          <label tabindex="0" class=" lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+          </label>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a>Home</a></li>
+            <li><a>About Us</a></li>
+            <li><a>Shop</a></li>
+            <li><a>All Fruits</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
   <main class="container mx-auto"></main>
   <footer></footer>
 </body>
