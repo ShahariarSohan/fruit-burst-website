@@ -515,20 +515,20 @@
     <section class="space-y-5">
       <h1 class= "text-3xl  text-center md:text-5xl font-black">Why Choose Us</h1>
       <p class=" text-sm text-center font-normal">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+      <div class="grid grid-cols-1  lg:grid-cols-3 gap-12">
         <!-- col-1 -->
-        <div class="space-y-10">
+        <div class="space-y-10 order-2 lg:order-1">
           <!-- group  -->
-          <div class="flex gap-6 items-center">
+          <div class="flex  flex-col lg:flex-row gap-6 items-center">
             <img class="w-10 h-10"src="./images/group.png" alt="">
              <div class="space-y-2">
-              <h2 class="text-2xl font-black">Dedicated Team</h2>
+              <h2 class="text-2xl font-black text-center">Dedicated Team</h2>
               <div class="w-32 h-[1px] bg-[#121212]"></div>
               <p class="text-sm normal">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
             </div>  
         </div>
         <!-- fresh food  -->
-        <div class="flex gap-6 items-center">
+        <div class="flex flex-col lg:flex-row gap-6 items-center">
           <img class="w-10 h-10"src="./images/fresh.png" alt="">
            <div class="space-y-2">
             <h2 class="text-2xl font-black">Fresh is Best</h2>
@@ -537,7 +537,7 @@
           </div>  
       </div>
         <!-- certificate -->
-        <div class="flex gap-6 items-center">
+        <div class="flex flex-col lg:flex-row gap-6 items-center">
           <img class="w-10 h-10"src="./images/certificate.png" alt="">
            <div class="space-y-2">
             <h2 class="text-2xl font-black">Gift Certificates</h2>
@@ -547,43 +547,79 @@
       </div>
         </div>
         <!-- col-2  -->
-        <div>
+        <div class=" order-1 lg:order-2">
           <img src="./images/whychoose1.png" alt="">
         </div>
         <!-- col-3  -->
-        <div class="space-y-10">
+        <div class="space-y-10 order-3">
           <!-- supplier  -->
           <div class="flex flex-col lg:flex-row  gap-6 items-center">
             <img class="w-10 h-10"src="./images/vegetable.png" alt="">
              <div class="space-y-2">
-              <h2 class="text-2xl font-black text-end">Integrated Supplier</h2>
+              <h2 class="text-2xl font-black lg:text-end">Integrated Supplier</h2>
               <div class="w-32 h-[1px] bg-[#121212]"></div>
-              <p class="text-sm normal text-end">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              <p class="text-sm normal lg:text-end">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
             </div>  
         </div>
         <!-- Sustainable  -->
         <div class="flex flex-col lg:flex-row  gap-6 items-center">
           <img class="w-10 h-10"src="./images/ice-cream.png" alt="">
            <div class="space-y-2">
-            <h2 class="text-2xl font-black text-end">Sustainable Practice</h2>
+            <h2 class="text-2xl font-black lg:text-end">Sustainable Practice</h2>
             <div class="w-32 h-[1px] bg-[#121212]"></div>
-            <p class="text-sm normal text-end">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+            <p class="text-sm normal lg:text-end">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
           </div>  
       </div>
         <!-- Benefits -->
         <div class="flex flex-col lg:flex-row gap-6 items-center">
           <img class="w-10 h-10"src="./images/like.png" alt="">
            <div class="space-y-2">
-            <h2 class="text-2xl font-black text-end">The Benefits Only</h2>
+            <h2 class="text-2xl font-black lg:text-end">The Benefits Only</h2>
             <div class="w-32 h-[1px] bg-[#121212] "></div>
-            <p class="text-sm normal text-end">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+            <p class="text-sm normal lg:text-end">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
           </div>  
       </div>
         </div>
       </div>
     </section>
   </main>
-  <footer></footer>
+  <footer class="footer footer-center p-20 bg-[#121212] text-base-content ">
+    <div class=" flex gap-3">
+      <img src="./images/logo.png" alt="">
+      <h2 class="text-white md:text-3xl  text-2xl font-bold">Fruit Burst</h2>
+    </div>
+    <div class="flex flex-wrap md:flex-row gap-2 md:gap-6 text-white">
+      <a class="link link-hover ">Home</a> 
+      <a class="link link-hover ">About Us</a> 
+      <a class="link link-hover ">Shop</a> 
+      <a class="link link-hover ">All Fruits</a>
+      <a class="link link-hover ">Support</a>
+      <a class="link link-hover ">My Account</a>
+    </div> 
+    <div>
+      <div class="grid grid-flow-col gap-6">
+        <a href="">
+          <img class="w-8 h-8"src="./images/twitter 1.svg" alt="">
+        </a>
+        <a href="">
+          <img class="w-8 h-8"src="./images/facebook 1.svg" alt="">
+        </a>
+        <a href="">
+          <img class="w-8 h-8"src="./images/Group 49.svg" alt="">
+        </a>
+        <a href="">
+          <img class="w-8 h-8"src="./images/linkedin 1 (1).svg" alt="">
+        </a><a href="">
+          <img class="w-8 h-8"src="./images/instagram 1.svg" alt="">
+        </a>
+        <a href="">
+          <img class="w-8 h-8"src="./images/apple 1.svg" alt="">
+        </a>
+       
+      </div>
+    </div> 
+   
+  </footer>
 </body>
 
 </html>
